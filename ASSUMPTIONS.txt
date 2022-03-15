@@ -1,0 +1,5 @@
+Assumptions:
+1. the file path will be given as input.
+    Ideally it will be stored in src/main/resources
+2. fractions are floored for each individual sub expressions,
+    rather than being rounded.
