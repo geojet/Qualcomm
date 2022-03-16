@@ -31,7 +31,7 @@ public class ExpressionRegexCheck {
      * @param expression single expression without brackets
      * @return evaluates and returns a long value
      */
-    public static Long evaluate(String expression) {
+    private static Long evaluate(String expression) {
         Expression e = new Expression(expression);
         return ((long) Math.floor(e.calculate()));
     }
