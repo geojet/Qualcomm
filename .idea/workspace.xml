@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a427c7b-2898-4dbf-9a30-644e6cc73bc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ .gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ .gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ .gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExpressionParsingIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExpressionParsingIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/expectedOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/expectedOutput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExpressionParsingIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExpressionParsingIT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/expectedOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/out.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +54,7 @@
       <recent name="C:\Users\geord\OneDrive\Documents\GitHub\Qualcomm\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExpressionParsingIT.testParseAndEvaluateFile">
+  <component name="RunManager" selected="Application.ExpressionParsingApplication">
     <configuration name="ExpressionParsingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.qualcomm.ExpressionParsingApplication" />
       <module name="ExpressionParsing" />
@@ -119,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExpressionParsingApplication" />
+        <item itemvalue="JUnit.ExpressionParsingIT" />
         <item itemvalue="JUnit.ExpressionParsingIT.testParseAndEvaluateFile" />
         <item itemvalue="JUnit.ExpressionParsingIT.testEvaluate" />
         <item itemvalue="JUnit.ExpressionParsingIT.testParseAndEvaluateExpression" />
-        <item itemvalue="JUnit.ExpressionParsingIT" />
-        <item itemvalue="Application.ExpressionParsingApplication" />
       </list>
     </recent_temporary>
   </component>
