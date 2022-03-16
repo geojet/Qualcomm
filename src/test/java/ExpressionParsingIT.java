@@ -28,7 +28,7 @@ public class ExpressionParsingIT {
         String path = "src/test/resources";
         String expectedOutput = Files.readString(Path.of(path + "/expectedOutput.txt"));
         ExpressionParser.parseAndEvaluateFile("src/test/resources");
-        String output = Files.readString(Path.of(path + "/expectedOutput.txt"));
+        String output = Files.readString(Path.of(path + "/out.txt"));
         Assert.assertEquals(expectedOutput, output);
     }
 }
