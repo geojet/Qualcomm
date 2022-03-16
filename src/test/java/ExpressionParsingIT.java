@@ -9,14 +9,20 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class ExpressionParsingIT {
+    /** tests if fractions are floored
+     */
     @Test
     public void testParseAndEvaluateExpression() {
-        Assert.assertEquals("0", ExpressionRegexCheck.parseAndEvaluateExpression(""));
+        Assert.assertEquals("0", ExpressionRegexCheck.parseAndEvaluateExpression("2/3"));
     }
+    /** tests if brackets are given priority
+     */
     @Test
     public void testEvaluate() {
-        Assert.assertEquals("0", ExpressionRegexCheck.parseAndEvaluateExpression(""));
+        Assert.assertEquals("2", ExpressionRegexCheck.parseAndEvaluateExpression("1*(2+4)/3"));
     }
+    /** tests file in.txt is read from given path and output is updated in out.txt
+     */
     @Test
     public void testParseAndEvaluateFile() throws IOException {
         String path = "src/test/resources";
