@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a427c7b-2898-4dbf-9a30-644e6cc73bc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/com/interview/qualcomm/ExpressionParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/interview/qualcomm/ExpressionParsingApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/interview/qualcomm/ExpressionRegexCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ExpressionParsingIT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/expectedOutput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ .gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ .gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
