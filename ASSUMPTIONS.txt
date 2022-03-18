@@ -2,4 +2,7 @@ Assumptions:
 1. the file path will be given as input.
     Ideally it will be stored in src/main/resources
 2. fractions are floored for each individual sub expressions,
-    rather than being rounded. Eg: 2/3 -> 1.
+    rather than being rounded.
+    Eg: 2/3   -> 0.
+        2/3*3 -> 0.
+        3*2/3 -> 2.
