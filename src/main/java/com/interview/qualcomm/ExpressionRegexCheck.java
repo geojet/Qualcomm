@@ -17,13 +17,14 @@ public class ExpressionRegexCheck {
      */
     public static String parseAndEvaluateExpression(String expression) {
         //patter matches expressions surrounded by brackets
-        Pattern p = Pattern.compile("\\([0-9]{1,}[/,*,+,-][0-9]{1,}\\)");
+        Pattern p = Pattern.compile("\\([[0-9]{1,}[/,*,+,-]]{1,}[0-9]{1,}\\)");
         Matcher m = p.matcher(expression);
         while(m.find()) {
             //evaluates expressions inside brackets first
-            expression = expression.replace(m.group(),evaluate(m.group()).toString());
+            String exp = m.group();
+            expression = expression.replace(m.group(),parseAndEvaluateExpression(exp.substring(1,exp.length()-1)));
         }
-        return evaluate(expression).toString();
+        return checkDivisionAndEvaluate(expression).toString();
     }
     /**
      * function to evaluate an arithmetic expression
@@ -31,8 +32,18 @@ public class ExpressionRegexCheck {
      * @param expression single expression without brackets
      * @return evaluates and returns a long value
      */
-    private static Long evaluate(String expression) {
-        Expression e = new Expression(expression);
+    private static Long checkDivisionAndEvaluate(String expression) {
+        Pattern p = Pattern.compile("[0-9]{1,}[/,*][0-9]{1,}");
+        Matcher m = p.matcher(expression);
+        Expression e;
+        while(m.find()) {
+            //evaluates multiplication and division from left to right
+            String exp = m.group();
+            e = new Expression(exp);
+            exp = String.valueOf(Math.floor(e.calculate()));
+            expression = expression.replace(m.group(), exp);;
+        }
+        e = new Expression(expression);
         return ((long) Math.floor(e.calculate()));
     }
 }

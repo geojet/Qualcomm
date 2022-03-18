@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1a427c7b-2898-4dbf-9a30-644e6cc73bc9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionRegexCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionRegexCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExpressionParsingIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExpressionParsingIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/qualcomm/ExpressionRegexCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/qualcomm/ExpressionRegexCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExpressionParsingIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExpressionParsingIT.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +64,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ExpressionParsingIT">
-    <configuration name="ExpressionParsingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.qualcomm.ExpressionParsingApplication" />
-      <module name="ExpressionParsing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.qualcomm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExpressionParsingIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExpressionParsing" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,21 +83,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionParsingIT.testParseAndEvaluateExpression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionParsingIT.testEvaluate1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExpressionParsing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExpressionParsingIT" />
-      <option name="METHOD_NAME" value="testParseAndEvaluateExpression" />
+      <option name="METHOD_NAME" value="testEvaluate1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionParsingIT.testParseAndEvaluateFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionParsingIT.testEvaluate3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExpressionParsing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExpressionParsingIT" />
-      <option name="METHOD_NAME" value="testParseAndEvaluateFile" />
+      <option name="METHOD_NAME" value="testEvaluate3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionParsingIT.testEvaluateBracket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExpressionParsing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExpressionParsingIT" />
+      <option name="METHOD_NAME" value="testEvaluateBracket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,10 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ExpressionParsingIT" />
-        <item itemvalue="Application.ExpressionParsingApplication" />
-        <item itemvalue="JUnit.ExpressionParsingIT.testParseAndEvaluateFile" />
+        <item itemvalue="JUnit.ExpressionParsingIT.testEvaluate3" />
         <item itemvalue="JUnit.ExpressionParsingIT.testEvaluate" />
-        <item itemvalue="JUnit.ExpressionParsingIT.testParseAndEvaluateExpression" />
+        <item itemvalue="JUnit.ExpressionParsingIT.testEvaluateBracket" />
+        <item itemvalue="JUnit.ExpressionParsingIT.testEvaluate1" />
       </list>
     </recent_temporary>
   </component>
