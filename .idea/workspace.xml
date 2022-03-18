@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a427c7b-2898-4dbf-9a30-644e6cc73bc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionRegexCheckUpdated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExpressionParsingUpdatedIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASSUMPTIONS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ASSUMPTIONS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionRegexCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionRegexCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExpressionParsingIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExpressionParsingIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/expectedOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/expectedOutput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ExpressionParsing-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ExpressionParsing-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interview/qualcomm/ExpressionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interview/qualcomm/ExpressionParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/ExpressionParsingIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/ExpressionParsingIT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-ExpressionParsingIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-ExpressionParsingIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-ExpressionParsing-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-ExpressionParsing-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExpressionParsingIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExpressionParsingIT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/expectedOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/out.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,50 +77,48 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExpressionParsingIT">
-    <configuration name="ExpressionParsingIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in ExpressionParsing">
+    <configuration name="All in ExpressionParsing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExpressionParsing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionParsingIT" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionParsingUpdatedIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExpressionParsing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExpressionParsingUpdatedIT" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionParsingIT.testEvaluate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionParsingUpdatedIT.testEvaluate6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExpressionParsing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionParsingIT" />
-      <option name="METHOD_NAME" value="testEvaluate" />
+      <option name="MAIN_CLASS_NAME" value="ExpressionParsingUpdatedIT" />
+      <option name="METHOD_NAME" value="testEvaluate6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionParsingIT.testEvaluate1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionParsingUpdatedIT.testEvaluate7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExpressionParsing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionParsingIT" />
-      <option name="METHOD_NAME" value="testEvaluate1" />
+      <option name="MAIN_CLASS_NAME" value="ExpressionParsingUpdatedIT" />
+      <option name="METHOD_NAME" value="testEvaluate7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionParsingIT.testEvaluate3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionParsingUpdatedIT.testEvaluateBracket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExpressionParsing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionParsingIT" />
-      <option name="METHOD_NAME" value="testEvaluate3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionParsingIT.testEvaluateBracket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExpressionParsing" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionParsingIT" />
+      <option name="MAIN_CLASS_NAME" value="ExpressionParsingUpdatedIT" />
       <option name="METHOD_NAME" value="testEvaluateBracket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -112,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExpressionParsingIT" />
-        <item itemvalue="JUnit.ExpressionParsingIT.testEvaluate3" />
-        <item itemvalue="JUnit.ExpressionParsingIT.testEvaluate" />
-        <item itemvalue="JUnit.ExpressionParsingIT.testEvaluateBracket" />
-        <item itemvalue="JUnit.ExpressionParsingIT.testEvaluate1" />
+        <item itemvalue="JUnit.All in ExpressionParsing" />
+        <item itemvalue="JUnit.ExpressionParsingUpdatedIT" />
+        <item itemvalue="JUnit.ExpressionParsingUpdatedIT.testEvaluateBracket" />
+        <item itemvalue="JUnit.ExpressionParsingUpdatedIT.testEvaluate7" />
+        <item itemvalue="JUnit.ExpressionParsingUpdatedIT.testEvaluate6" />
       </list>
     </recent_temporary>
   </component>
@@ -141,5 +156,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionRegexCheckUpdated.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interview/qualcomm/ExpressionRegexCheckUpdated.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

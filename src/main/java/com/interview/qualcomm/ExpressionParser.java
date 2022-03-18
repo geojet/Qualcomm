@@ -66,7 +66,7 @@ public class ExpressionParser {
     private static void updateFile(String expression, Writer fileWriter) {
         try {
             String newLine = "\n";
-            String value = ExpressionRegexCheck.parseAndEvaluateExpression(new String(expression));
+            String value = ExpressionRegexCheckUpdated.parseAndEvaluateExpression(new String(expression));
             String evaluatedOutput = expression.contains(newLine)?expression.substring(0,expression.length() - 2) + "=" : expression.concat("=") + value;
             fileWriter.append(evaluatedOutput);
             fileWriter.append(newLine);
